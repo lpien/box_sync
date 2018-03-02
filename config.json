@@ -1,0 +1,9 @@
+{
+  "clientID": "x0m9mkl3s0ofbmaufs5tjn9vkcmx3wj1",
+  "clientSecret": "eJamjZiH4So96xTb41YUuoS2KXZFPS40",
+  "publicKeyID": "nkgbm1b1",
+  "enterpriseID": "8204648",
+  "folderId": "43429235201",
+  "destinationPath": "/Users/admin/Desktop/test_destination",
+  "timelogPath": "/Users/admin/Desktop/box_sync/sync_prod/timelog.txt"
+}
