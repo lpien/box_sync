@@ -89,38 +89,3 @@ schedule.every(5).seconds.do(pull)
 while 1:
     schedule.run_pending()
     time.sleep(1)
-
-
-#root_folder = client.folder(folder_id='0').get()
-#print('root_folder: ' + str(root_folder))
-
-#items = client.folder(folder_id='0').get_items(limit=100, offset=0)
-#print('items in root folder: ' + str(items))
-
-#sync_folder = client.folder(folder_id='43429235201').get()
-#print('thingcard folder: ' + str(sync_folder))
-
-#items2 = client.folder(folder_id='43429235201').get_items(limit=100, offset=0)
-#print('items in thingcard folder: ' + str(items2))
-
-''''''
-
-#print str(nameList[j]) + " " + str(idList[j])
-#fileid = idList[j]
-#filename = client.file(file_id='277712067595').get()['name']
-# filecontent = client.file(file_id=str(idNum)).content()
-
-'''newfile = open(completeName,'w')
-newfile.write(filecontent)
-newfile.close()'''
-
-
-#download_url = client.file(file_id='258129851804').get_shared_link_download_url()
-
-#shared_link = client.folder(folder_id='43429235201').get_shared_link()
-#print('shared_link for thingcards ' + str(shared_link))
-
-'''completeName = os.path.join(destination, filename) 
-newfile = open(completeName,'w')
-newfile.write(filecontent)
-newfile.close()'''
